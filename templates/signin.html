@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>5HYFILM's Friendship - Sign In</title>
+        <link rel="icon" type="image/png" sizes="72x72" href="/static/images/logo.png">
+        <link rel="stylesheet" href="static/style.css">
+        <link rel="stylesheet" href="static/signin_style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="static/images/logo.png" class="logo">
+                    <nav>
+                        <ul id="menuList">
+                            <li><a href="/home">HOME</a></li>
+                            <li><a href="/signin">SIGN IN</a></li>
+                            <li><a href="/contactme">CONTACT ME</a></li>
+                        </ul>
+                    </nav>
+                <img src="static/images/menu.png" class="menu-icon" onclick="togglemenu()">
+            </div>
+                <center>
+                <div class="wrapper">
+                    <div class="title">Sign In </div>
+                        <form method="POST">
+                            <div class="field">
+                                <input class="input" type="text" name="username" placeholder="Username" required>
+                                <label class="label">Username</label>
+                            </div>
+                    <div class="field">
+                        <input class="input" type="password" name="password" placeholder="Password" required>
+                        <label class="label">Password</label>
+                    </div>
+            <div class="field">
+                      <input type="submit" value="Sign In">
+                    </div>
+            </form>
+            </div>
+            </center>
+            <div class="social-links">
+                <a href="https://www.facebook.com/waranthornchansawang"><img src="static/images/fb.png"></a>
+                <a href="https://twitter.com/5hyfilm"><img href="https://twitter.com/5hyfilm" src="static/images/tw.png"></a>
+                <a href="https://www.instagram.com/5hyfilm/"><img href="https://www.instagram.com/5hyfilm/" src="static/images/ig.png"></a>
+            </div>
+        </div>
+        <script src="static/app.js"></script>
+    </body>
+</html>
